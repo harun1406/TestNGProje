@@ -1,17 +1,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite - belirli methodlar">
-    <test name="Test - method test">
-        
-        
-        <classes>
-            <class name=""></class>
-        </classes>
-        
-        
-        
-        
-        
-        
-        
+<suite name="Suite - smoketests paketi">
+    <test name="Test - smoketests paket testleri">
+        <packages>
+            <!--  Çalıştırmak istediğimiz paketleri buraya yazabiliyoruz  -->
+            <!--  CTRL + SHIFT + F10  -->
+            <package name="com.techproed.tests"></package>
+        </packages>
     </test>
 </suite>
